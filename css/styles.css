@@ -815,12 +815,8 @@ img {
   letter-spacing: 0.04em;
 }
 
-.check-text-box-link {
-  color: #4d5ae5;
-  text-decoration-line: underline;
-}
-
-span.check-text-box {
+.check-text-box {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
@@ -832,5 +828,9 @@ span.check-text-box {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+}
+
+.check-text-box-link {
+  color: #4d5ae5;
+  text-decoration-line: underline;
 }
