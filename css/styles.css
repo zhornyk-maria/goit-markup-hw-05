@@ -807,9 +807,6 @@ img {
 }
 
 .check-text {
-  display: flex;
-  gap: 8px;
-  align-items: center;
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -818,7 +815,7 @@ img {
 
 .check-text-box {
   display: inline-flex;
-  order: -1;
+  margin-right: 8px;
   justify-content: center;
   align-items: center;
   width: 16px;
