@@ -820,8 +820,7 @@ img {
   text-decoration-line: underline;
 }
 
-.check-text-box {
-  display: inline-flex;
+span.check-text-box {
   justify-content: center;
   align-items: center;
   margin-right: 8px;
@@ -833,4 +832,5 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
